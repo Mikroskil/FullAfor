@@ -8,12 +8,18 @@
 	font-size:40px;
 }
 .judul2 {
-	font-size:35px;
+	text-align:left;
+	font-size:30px;
 }
 .isi {
-	font-size:20px;	
+	text-align:justify;
+	font-size:18px;	
 }
-
+.isi img {
+	position:absolute;
+	right:0;
+	left:0;
+}
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;

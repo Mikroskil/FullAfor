@@ -1,0 +1,60 @@
+{
+  "name": "bespoke-theme-tweakable",
+  "version": "1.0.1",
+  "description": "A simple dark theme for bespoke.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gendocs": "gendocs > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/bespoke-theme-dark.git"
+  },
+  "keywords": [
+    "bespoke-theme",
+    "bespoke-plugin"
+  ],
+  "author": {
+    "name": "Damon Oehlman",
+    "email": "damon.oehlman@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/bespoke-theme-dark/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/bespoke-theme-dark",
+  "dependencies": {
+    "bespoke-classes": "^1.0.0",
+    "brfs": "^1.2.0",
+    "dot": "^1.0.2",
+    "feature": "^0.1.4",
+    "insert-css": "^0.2.0"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "gitHead": "37c035ba66a06943a7cd706a34f4da1b259f217a",
+  "_id": "bespoke-theme-tweakable@1.0.1",
+  "_shasum": "8236e48ea483d8e593b5e8bc3c53d88034666d4c",
+  "_from": "bespoke-theme-tweakable@*",
+  "_npmVersion": "1.4.23",
+  "_npmUser": {
+    "name": "damonoehlman",
+    "email": "damon.oehlman@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "damonoehlman",
+      "email": "damon.oehlman@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "8236e48ea483d8e593b5e8bc3c53d88034666d4c",
+    "tarball": "http://registry.npmjs.org/bespoke-theme-tweakable/-/bespoke-theme-tweakable-1.0.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/bespoke-theme-tweakable/-/bespoke-theme-tweakable-1.0.1.tgz"
+}

@@ -4,21 +4,45 @@
  * @author ocodia
  */
 
+body {
+	background:#464646;
+	}
+.nav{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+	background-color:#666666;
+	z-index:99999;
+	}
+.back{
+	padding-top:150px;
+	background-color:#464646;
+	color:#FFFFFF;
+	width:1000px;
+	margin:-240px 0px 0px -500px;
+	padding:15px;
+	text-align:end;
+}
 .judul {
 	font-size:40px;
 }
-.judul2 {
-	text-align:left;
+h1{
+	margin:0;
 	font-size:30px;
+}
+.judul2 {
+	font-size:25px;
 }
 .isi {
 	text-align:justify;
 	font-size:18px;	
 }
 .isi img {
-	position:absolute;
-	right:0;
-	left:0;
+	
+	margin-left:150px;
+	margin-right:150px;
 }
 code[class*="language-"],
 pre[class*="language-"] {

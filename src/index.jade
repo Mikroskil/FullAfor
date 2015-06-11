@@ -4,7 +4,8 @@ html
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title FullAfor
-
+    script(src='src/bespoke-fx.js')
+      
     link(rel='stylesheet', type='text/css', href='build/build.css')
 
   body
@@ -19,7 +20,7 @@ html
           li
             .isi
               img(src='images/0.jpg')
-      section.back
+      section.back(data-bespoke-fx-transition='flip')
         .judul2 1. Menggunakan jarimu untuk menghitung perkalian 6,7,8,9.
         br
         ul

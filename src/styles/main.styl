@@ -3,27 +3,33 @@
 
 // Import CSS from "node_modules" and "bower_components"
 // thanks to Stylus' "import css" and "paths" options
+@font-face
+  font-family "kapur"
+  src url('../font/KGBlankSpaceSketch.ttf')
 
 @import 'prism/themes/prism-okaidia.css'
 // Check out "bower_components/prism/themes/" for available themes
+
+
 body
-	background #464646;
+	background #178342
+
 .back
-	padding-top 150px;
-	background-color #464646;
-	color #FFFFFF;
-	width 1000px;
-	margin -240px 0px 0px -500px;
-	padding 15px;
-	text-align end;
+	background-color #178342
+	color #FFFFFF
+	width 1000px
+	margin -240px 0px 0px -500px
+	text-align justify
 .judul
-	font-size 34px;
-	
+  font 34px/34px kapur
+
 .judul2
-	font-size 20px;
-.isi 
-	text-align justify;
-	font-size 16px;	
-.isi img 
-	margin-left 150px;
-	margin-right 150px;
+	font-size 20px
+.isi
+  margin auto
+  width 60%
+	text-align justify
+	font-size 16px
+.isi img
+  width 100%
+  margin auto

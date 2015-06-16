@@ -2,6 +2,10 @@
   font-family: "kapur";
   src: url("../font/KGBlankSpaceSketch.ttf");
 }
+@font-face {
+  font-family: 'kapur2';
+  src: url("../font/KGBlankSpaceSolid.ttf");
+}
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -134,7 +138,7 @@ body {
   text-align: center;
 }
 .judul2 {
-  font-size: 20px;
+  font: 20px/20px kapur2;
 }
 .isi {
   margin: auto;

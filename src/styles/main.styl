@@ -8,7 +8,11 @@
   src url('../font/KGBlankSpaceSketch.ttf')
 @font-face
   font-family 'kapur2'
-  src url('../font/KGBlankSpaceSolid.ttf')
+  src url('../font/KGBlankSpaceSolid.ttf') 
+@font-face
+  font-family 'kapur3'
+  src url('../font/PPETRIAL.ttf')
+
 @import 'prism/themes/prism-okaidia.css'
 // Check out "bower_components/prism/themes/" for available themes
 
@@ -19,20 +23,26 @@ body
 .back
 	background-color #178342
 	color #FFFFFF
-
 	text-align justify
+
 .judul
   font 34px/34px kapur
   text-align center
 
 .judul2
   font 20px/20px kapur2
+  text-align center
 
 .isi
-  margin auto
-
+	font-family kapur3
+	margin auto
 	text-align justify
-	font-size 16px
+	font-size 18px
 .isi img
   width 100%
+  padding-bottom 10px
   margin auto
+.judul3
+	font-size 50px
+	font-family kapur
+	text-align center

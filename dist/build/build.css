@@ -6,6 +6,10 @@
   font-family: 'kapur2';
   src: url("../font/KGBlankSpaceSolid.ttf");
 }
+@font-face {
+  font-family: 'kapur3';
+  src: url("../font/PPETRIAL.ttf");
+}
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -139,14 +143,21 @@ body {
 }
 .judul2 {
   font: 20px/20px kapur2;
+  text-align: center;
 }
 .isi {
+  font-family: kapur3;
   margin: auto;
-}
-text-align justify {
-  font-size: 16px;
+  text-align: justify;
+  font-size: 18px;
 }
 .isi img {
   width: 100%;
+  padding-bottom: 10px;
   margin: auto;
+}
+.judul3 {
+  font-size: 50px;
+  font-family: kapur;
+  text-align: center;
 }
